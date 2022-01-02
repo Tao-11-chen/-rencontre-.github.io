@@ -28,4 +28,4 @@ first,we got a problem now,how to classify the two vector:The column y indicates
 
 Hence, we have a binary classification challenge. We will use a linear model to build the classifier.
 
-![image](https://github.com/Tao-11-chen/Tao-11-chen.github.io/blob/master/_posts/2.png)
+![image](https://s3.bmp.ovh/imgs/2022/01/04eb5d3d298e796a.png)
