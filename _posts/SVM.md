@@ -25,5 +25,6 @@ it's my first time learning about machine learning or AI,SVM is simple in theory
 ## Processes of SVM
 first,we got a problem now,how to classify the two vector:The column y indicates if the email qualifies as spam or no spam.
 ![image](https://github.com/Tao-11-chen/Tao-11-chen.github.io/blob/master/_posts/1png.png)
+
 Hence, we have a binary classification challenge. We will use a linear model to build the classifier.
 ![image](https://github.com/Tao-11-chen/Tao-11-chen.github.io/blob/master/_posts/2.png)
