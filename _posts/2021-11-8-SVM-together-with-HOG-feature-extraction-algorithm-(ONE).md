@@ -108,7 +108,6 @@ Hence, our constraints change to:
 ![image16](https://s3.bmp.ovh/imgs/2022/01/0557a8f62b30ba5b.png)
 
 Now the problem of maximizing γ has changed to:
-  - Minimizing the length of vector w; 
-  - Maintaining the constraint that our confidence in classification all data points is greater than 1.
+  **maintaining the constraint that our confidence in classification all data points is greater than 1 and minimizing the length of vector w.**
 
-
+That is so called hard constraints.
