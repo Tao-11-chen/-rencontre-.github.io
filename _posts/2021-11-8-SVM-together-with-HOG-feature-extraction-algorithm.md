@@ -85,16 +85,16 @@ From the equation below it can be seen that γ also scales, if we scale W. This 
 
 There are 2 steps for solving this problem
 1. We work with a normalized W;
-![image]
+![image13](https://s3.bmp.ovh/imgs/2022/01/b612df693ba73119.png)
 
 2. We define our support vectors as **w×x + b = +-1**.
-![image]
+![image14](https://s3.bmp.ovh/imgs/2022/01/b5e8a99e7ae32c19.png)
 
 How do we calculate γ?
-![image]
+![image15](https://s3.bmp.ovh/imgs/2022/01/c457c1a99505407b.png)
 
 Hence, our constraints change to:
-![image]
+![image16](https://s3.bmp.ovh/imgs/2022/01/0557a8f62b30ba5b.png)
 
 Now the problem of maximizing γ has changed to:
   - Minimizing the length of vector w; 
@@ -103,7 +103,7 @@ Now the problem of maximizing γ has changed to:
 ## Soft Margin Classifier
 
 So far we have assumed that it is always possible to find a line that will separate positive and negative cases. However, most of the real data set have no such hyper planes. See the data set below:
-![image]
+![image17]()
 
 In such cases, we need to introduce a penalty C associated to the number of mistakes, while maintaining high margins at the same time.
 ![image]
