@@ -6,10 +6,10 @@ last_modified_at: 2021-11-8 01:08:25 +0800
 tags: [AI]
 toc:  true
 ---
-Welcome to my first blog!This is an introduction to **support vector machines** and **HOG**.
+# This is an introduction to support vector machines and HOG.
 {: .message }
 
-it's my first time learning about machine learning or AI,SVM is simple in theory compared with modern AI methods like CNN,i do think it's a great method.
+it's my first time learning about machine learning,SVM is simple in theory compared with modern AI methods like CNN but is well performanced.
 ## Disadvantages and advantages of SVM
 
 ### 1.advantages:
