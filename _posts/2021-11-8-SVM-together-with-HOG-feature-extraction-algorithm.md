@@ -23,11 +23,11 @@ it's my first time learning about machine learning or AI,SVM is simple in theory
  
 ## classification of SVM methods:
   ### linear support vector machine in linearly separable case
-     - used when the data is completely linearly separable,also called **hard margin maximization**.
+  #### used when the data is completely linearly separable,also called **hard margin maximization**.
   ### linear support vector machine
-     - used when the data is approximately linearly separable,also called **soft margin maximization**.
+  #### used when the data is approximately linearly separable,also called **soft margin maximization**.
   ### non-linear support vector machine
-     - used when the data is completely not linearly separable,using **soft margin maximization together with kernal trick**.
+  #### used when the data is completely not linearly separable,using **soft margin maximization together with kernal trick**.
   
 ## Processes of SVM (hard constraints)
 
