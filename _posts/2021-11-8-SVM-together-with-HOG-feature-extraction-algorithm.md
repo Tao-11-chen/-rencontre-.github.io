@@ -20,8 +20,16 @@ it's my first time learning about machine learning or AI,SVM is simple in theory
   - SVM is difficult to implement for large data training. Because SVM solves the support vector with the help of quadratic programming, it involves the calculation of m-order matrix, which consumes a lot of space and time. The improved method to solve the above problems is SMO algorithm.
   - Classical SVM only gives two classification algorithms, but in practice, there is more multi classification problem, so we usually solve it by constructing a combination of multiple two classification support vector machines. The first mock exam is one to many patterns, one to one mode and SVM decision tree.
   - The choose of the Kernel(methods to project to high dimensional space) is more depended on experiences,lack of objective law(maybe not found yet)
+ 
+## classification of SVM methods:
+  ### linear support vector machine in linearly separable case
+  used when the data is completely linearly separable,also called **hard margin maximization**.
+  ### linear support vector machine
+  used when the data is approximately linearly separable,also called **soft margin maximization**.
+  ### non-linear support vector machine
+  used when the data is completely not linearly separable,using **soft margin maximization together with kernal trick**.
   
-## Processes of SVM (with hard constraints)
+## Processes of SVM (hard constraints)
 
 first,we got a problem now,how to classify the two vector:The column y indicates if the email qualifies as spam or no spam.
 
@@ -100,7 +108,7 @@ Now the problem of maximizing γ has changed to:
   - Minimizing the length of vector w; 
   - Maintaining the constraint that our confidence in classification all data points is greater than 1.
   
-## Soft Margin Classifier
+## Processes of Soft Margin Classifier
 
 So far we have assumed that it is always possible to find a line that will separate positive and negative cases. However, most of the real data set have no such hyper planes. See the data set below:
 ![image17]()
