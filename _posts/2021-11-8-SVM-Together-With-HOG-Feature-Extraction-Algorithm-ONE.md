@@ -1,15 +1,16 @@
 ---
 layout: post
-title: SVM together with HOG feature extraction algorithm
+title: SVM Together With HOG Feature Extraction Algorithm(ONE)
 date: 2021-11-8 23:18 +0800
 last_modified_at: 2021-11-8 01:08:25 +0800
 tags: [AI]
 toc:  true
 ---
+
 # This is an introduction to support vector machines and HOG.
-{: .message }
 
 it's my first time learning about machine learning,SVM is simple in theory compared with modern AI methods like CNN but is well performanced.
+
 ## Disadvantages and advantages of SVM
 
 ### 1.advantages:
