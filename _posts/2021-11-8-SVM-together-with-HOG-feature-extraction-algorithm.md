@@ -21,7 +21,7 @@ it's my first time learning about machine learning or AI,SVM is simple in theory
   - Classical SVM only gives two classification algorithms, but in practice, there is more multi classification problem, so we usually solve it by constructing a combination of multiple two classification support vector machines. The first mock exam is one to many patterns, one to one mode and SVM decision tree.
   - The choose of the Kernel(methods to project to high dimensional space) is more depended on experiences,lack of objective law(maybe not found yet)
  
-## classification of SVM methods:
+## Classification of SVM methods:
   - linear support vector machine in linearly separable case  
   
       used when the data is completely linearly separable,also called **hard margin maximization**.
