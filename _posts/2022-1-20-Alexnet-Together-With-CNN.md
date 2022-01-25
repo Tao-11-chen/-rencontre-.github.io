@@ -2,7 +2,7 @@
 
 # This is an introduction to Alexnet together with convolutional neural networks
 
-## 1.History of CNN and position of Alexnet
+## 1.History of CNN and Introduction of Alexnet
 
 ## 2.Theory and structure of CNN
 
