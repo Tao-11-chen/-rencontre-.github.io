@@ -16,7 +16,7 @@
   - faster training rate:because of less arguments
     
     
-### 2.structure
+### 2.Structure
 #### Convolutional Layer：
 Used to extract different input features. Some convolution layers may only extract a small part, such as edge information
 
@@ -34,6 +34,9 @@ an odd number(3×3，9×9....)
 - stride: How the eye is moving to look the picture,one by one pixel or step once?
 - input channelsize: the input channel number,for example RGB picture has three channels
 - output channelsize: output channel number,cus one layer has many eyes and every eye will output it's own consequence 
-- 
+
+#### Subsampling Layer:
+
+
   
   
