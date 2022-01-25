@@ -2,11 +2,11 @@
 
 # This is an introduction to Alexnet together with convolutional neural networks
 
-## 1.History of CNN and Introduction of Alexnet
+## History of CNN and Introduction of Alexnet
 
-## 2.Theory and structure of CNN
+## Theory and structure of CNN
 
-### 1.Theory
+### Theory
   In general,convolutional neural networks is a combination of Convolutions,Subsampling and Full connection,
   In which Convolutions and subsampling is used to extracting feature and full connection is used to learning.
   It can be trained by BP(Back-propagation) algorithm.
@@ -18,8 +18,8 @@
   - faster training rate:because of less arguments
     
     
-### 2.Structure
-#### Convolutional Layer：
+### Structure
+#### 1.Convolutional Layer：
 Used to extract different input features. Some convolution layers may only extract a small part, such as edge information
 
 
@@ -44,7 +44,7 @@ formula to calculate：
 In the formula,N is the size of the picture tensor(N * N * 3 for RGB image)
 
 
-#### Subsampling Layer:
+#### 2.Subsampling Layer:
 
 
   
