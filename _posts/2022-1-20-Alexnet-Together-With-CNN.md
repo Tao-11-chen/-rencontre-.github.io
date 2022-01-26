@@ -81,7 +81,7 @@ Used to provide nonlinear modeling capability of network. By adding the activati
 Regular functions:
 - sigmode:may cause saturated,output average is not zero
 - tanh:may cause gradient disappearance 
-- ReLU:**most common**,but turn to 0 when it's negative
+- ReLU:**most common**,but turn to 0 and will not update when it comes to negative
 - ELU:conbination of ReLU and sigmode
 - Leaky ReLU:advanced ReLU but not so effiencently
 
