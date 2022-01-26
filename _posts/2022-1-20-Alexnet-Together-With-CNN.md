@@ -71,7 +71,7 @@ theoretically,deeper network can learn more,but when it is over fitting,we shoul
 adding **dropout** to the connections.
 
 **Noting that before putting the consequences of subsampling or convolution layer to the full connection layer,
-you should add a ***flatten layer to make the data one-dimensionally**
+you should add a flatten layer to make the data one-dimensionally**
 
 
 
