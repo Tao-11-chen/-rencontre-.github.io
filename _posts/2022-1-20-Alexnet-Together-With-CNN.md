@@ -27,6 +27,7 @@ AlexNet is considered one of the most influential papers published in computer v
 #### 1.Convolutional Layer：
 Used to extract different input features. Some convolution layers may only extract a small part, such as edge information
 
+![image](https://s3.bmp.ovh/imgs/2022/01/00806ddb0ce7a430.png)
 
 From my point of view,one convolutional core is like an small eye,it sweeps the picture and keep some feature of the picture 
 by multiply itself with each pixel of the picture.
