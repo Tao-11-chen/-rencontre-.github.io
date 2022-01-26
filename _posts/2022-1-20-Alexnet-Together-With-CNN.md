@@ -62,7 +62,7 @@ arguments of subsampling layer:
 - kernel_size:similar to the fliter of convolution layer,decides how many pixel is framed in a box
 - stride:decides how fast the box moves
 
-Noting that it's super parameters do not need to be trained actually,it's fixed
+**Noting that it's super parameters do not need to be trained actually,it's fixed**
 
 
 #### 3.full connection Layer:
