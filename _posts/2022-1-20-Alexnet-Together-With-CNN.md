@@ -20,7 +20,7 @@ AlexNet is considered one of the most influential papers published in computer v
   **Advantages**:Compared with traditional NN network,it has:
   - less arguments:convolution is better than normal connection
   - heigher accuracy:better extracted features
-  - faster training rate:because of less arguments
+  - faster training rate:because of less parameters
     
     
 ### Structure
@@ -31,10 +31,10 @@ Used to extract different input features. Some convolution layers may only extra
 From my point of view,one convolutional core is like an small eye,it sweeps the picture and keep some feature of the picture 
 by multiply itself with each pixel of the picture.
 
-Usually,one Convolutional layer will have many such eyes(convolution core，called filter)
+Usually,one Convolutional layer will have many such eyes(convolution core,also called filter)
 
 arguments of convolutional layer:
-- core size(F):The eyes above is an matrix actually and it should has a size,usually it has the same height and width and the height is 
+- kernel_size(F):The eyes above is an matrix actually and it should has a size,usually it has the same height and width and the height is 
 an odd number(3×3，9×9....)
 - padding(P): While the eye is moving to look the picture,the edge of the picture will be ignored,so we need to padding 0 to the edge of the picture
 (0 will not influence the consequence of the eye)
