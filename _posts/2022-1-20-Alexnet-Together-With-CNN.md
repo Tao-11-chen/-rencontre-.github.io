@@ -74,8 +74,15 @@ adding **dropout** to the connections.
 you should add a flatten layer to make the data one-dimensionally**
 
 
+### 4.Active function
+Used to provide nonlinear modeling capability of network. By adding the activation function, the deep neural network can have the ability of hierarchical nonlinear mapping learning. Therefore, activation function is an indispensable part of neural network
 
-
+Regular functions:
+- sigmode:may cause saturated,output average is not zero
+- tanh:may cause gradient disappearance 
+- ReLU:**most common**,but turn to 0 when it's negative
+- ELU:conbination of ReLU and sigmode
+- Leaky ReLU:advanced ReLU but not so effiencently
 
 
 
