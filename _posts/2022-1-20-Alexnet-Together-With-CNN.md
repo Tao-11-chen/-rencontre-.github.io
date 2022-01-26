@@ -4,7 +4,9 @@
 
 ![image](https://s3.bmp.ovh/imgs/2022/01/f3717cf0892d9891.png)
 AlexNet is considered one of the most influential papers published in computer vision, having spurred many more papers published employing CNNs and GPUs to accelerate deep learning.As of 2021, the AlexNet paper has been cited over 80,000 times according to Google Scholar.
+
 **Paper**:https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+
 **MyCode**:https://github.com/Tao-11-chen/Alexnet
 
 ## Theory and structure of CNN
