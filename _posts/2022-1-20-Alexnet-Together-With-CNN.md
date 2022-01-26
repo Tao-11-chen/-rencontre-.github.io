@@ -45,6 +45,35 @@ In the formula,N is the size of the picture tensor(N * N * 3 for RGB image)
 
 
 #### 2.Subsampling Layer:
+Used to reduce the number of parameters,reducing noice and make the model more robust
+
+- Maxpooling:the max number remains and delete the others:
+
+![image](https://img-blog.csdnimg.cn/20191005144841748.png)
+
+- Avgpooling:calculate the average number to save.
+
+arguments of subsampling layer:
+- kernel_size:similar to the fliter of convolution layer,decides how many pixel is framed in a box
+- stride:decides how fast the box moves
+
+Noting that it's super parameters do not need to be trained actually,it's fixed
+
+
+#### 3.full connection Layer:
+Used to learn the features extracted by convolution cores,all layers are connected to each other,
+theoretically,deeper network can learn more,but when it is over fitting,we should reduce the layers or
+adding **dropout** to the connections.
+
+Noting that before putting the consequences of subsampling or convolution layer to the full connection layer,
+you should add a flatten layer to make the data one-dimensionally
+
+
+
+
+
+
+
 
 
   
