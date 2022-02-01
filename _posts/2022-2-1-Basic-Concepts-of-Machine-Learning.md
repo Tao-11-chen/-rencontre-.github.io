@@ -8,7 +8,24 @@ the dataset contains small amount of taged data(with label) and a large amount o
 - reinforcement learning:supply an evalution of the action and the machine try itself to do a better action to make the evalution better
 
 ## 2.Basic concepts of supervised learning
-- input space:
-- output space
-- feature space
-- hypothesis space
+- input space:Set of all possible values enters
+- output space：Set of all possible values outputs
+- feature space:Every input is called an instance,it can be represtended as feature vectors and the space where the feature vectors exists is the feature spcae.
+**Noting that sometimes, in some model,feature space is the same as input space,we don't distinguish them.but in the other models,you should mapping or extract 
+instances from input space to feature space cus the models are defined on the feature space actually.**
+- hypothesis space:the purpose of the supervised learning is to learn a model to describe the input and output's relationship,it's actually a set of input-space's
+mapping to output-space.
+
+## 3.model,strategy and algorithm
+### model:
+the priority of Ml is find the suitable model,too complex model may lead to overfitting and too simple model may comes to under fitting problem
+### strategy:
+with model chosen,then we need to consider how to train the model,here we use loss function(cost function) to evaluate a prediction's quality,there's many different cost functions,List some below:
+- MSE
+- MAE
+- Huber
+- Quantile
+- Cross Entropy
+- Hinge
+- 0/1
+### algorithm:
