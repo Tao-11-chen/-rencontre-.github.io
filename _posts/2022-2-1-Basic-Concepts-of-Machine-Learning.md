@@ -21,7 +21,8 @@ mapping to output-space.
 the priority of Ml is find the suitable model,too complex model may lead to overfitting and too simple model may comes to under fitting problem
 ### strategy:
 with model chosen,then we need to consider how to train the model,here we use loss function(cost function) to evaluate a prediction's quality,there's many different cost functions,List some below:
-- MSE
+- MSE(L2 loss):Mean Squared Error
+<img src="https://latex.codecogs.com/svg.image?J&space;=&space;\frac{1}{N}\sum_{i=1}^{N}\left&space;(&space;y_{i}&space;-&space;\hat{}y_{i}&space;\right&space;)^{2}" title="J = \frac{1}{N}\sum_{i=1}^{N}\left ( y_{i} - \hat{}y_{i} \right )^{2}" />
 - MAE
 - Huber
 - Quantile
@@ -29,3 +30,4 @@ with model chosen,then we need to consider how to train the model,here we use lo
 - Hinge
 - 0/1
 ### algorithm:
+
