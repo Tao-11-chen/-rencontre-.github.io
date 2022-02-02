@@ -25,7 +25,9 @@ with model chosen,then we need to consider how to train the model,here we use lo
 
 <img src="https://latex.codecogs.com/svg.image?J&space;=&space;\frac{1}{N}\sum_{i=1}^{N}\left&space;(&space;y_{i}&space;-&space;\hat{}y_{i}&space;\right&space;)^{2}" title="J = \frac{1}{N}\sum_{i=1}^{N}\left ( y_{i} - \hat{}y_{i} \right )^{2}" />
 
-- MAE
+- MAE(L1 loss):Mean Absolute Error Loss
+
+
 - Huber
 - Quantile
 - Cross Entropy
