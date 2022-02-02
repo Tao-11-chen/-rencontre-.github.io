@@ -1,6 +1,6 @@
 # This is an introduction to support vector machines and HOG
 
-**My Test Code**:https://github.com/Tao-11-chen/SVM-and-HOG
+My Testing Code:https://github.com/Tao-11-chen/SVM-and-HOG
 
 ## Disadvantages and advantages of SVM
 
