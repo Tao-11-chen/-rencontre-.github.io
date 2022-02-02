@@ -27,6 +27,8 @@ with model chosen,then we need to consider how to train the model,here we use lo
 
 - MAE(L1 loss):Mean Absolute Error Loss
 
+<img src="https://latex.codecogs.com/svg.image?J&space;=&space;\frac{1}{N}\sum_{i=0}^{N}\left|&space;y_{i}&space;-&space;y_{i}^{\hat{}}\right|" title="J = \frac{1}{N}\sum_{i=0}^{N}\left| y_{i} - y_{i}^{\hat{}}\right|" />
+
 
 - Huber
 - Quantile
