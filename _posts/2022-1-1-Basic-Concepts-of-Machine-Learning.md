@@ -38,7 +38,14 @@ with model chosen,then we need to consider how to train the model,here we use lo
 ![image2](https://s3.bmp.ovh/imgs/2022/02/2e4607463f04943b.png)
 
 - Cross Entropy: most common lossfunction in classfication tasks.
-- Hinge
-- 0/1
+
+![image3](https://s3.bmp.ovh/imgs/2022/02/229925a3fb2f63af.jpg)
+
+**The results derived by minimizing cross entropy are consistent with those obtained by maximizing likelihood** 
+So，Cross Entropy is the same as maximum likelihood loss(log loss)
+
+- 0/1: Not so common,used by perceptron.
+<img src="https://latex.codecogs.com/svg.image?L\left&space;(&space;Y,&space;f\left&space;(&space;X&space;\right&space;)&space;\right&space;)&space;=\left\{\begin{aligned}1&space;&space;,&space;Y&space;\neq&space;&space;f\left&space;(&space;x&space;\right&space;)&space;\\0&space;&space;,&space;Y&space;=&space;f\left&space;(&space;x&space;\right&space;)&space;\\\end{aligned}\right.&space;" title="L\left ( Y, f\left ( X \right ) \right ) =\left\{\begin{aligned}1 , Y \neq f\left ( x \right ) \\0 , Y = f\left ( x \right ) \\\end{aligned}\right. " />
+
 ### algorithm:
 
