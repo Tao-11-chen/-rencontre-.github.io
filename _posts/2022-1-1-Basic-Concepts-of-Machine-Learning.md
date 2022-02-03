@@ -48,4 +48,32 @@ So，Cross Entropy is the same as maximum likelihood loss(log loss)
 <img src="https://latex.codecogs.com/svg.image?L\left&space;(&space;Y,&space;f\left&space;(&space;X&space;\right&space;)&space;\right&space;)&space;=\left\{\begin{aligned}1&space;&space;,&space;Y&space;\neq&space;&space;f\left&space;(&space;x&space;\right&space;)&space;\\0&space;&space;,&space;Y&space;=&space;f\left&space;(&space;x&space;\right&space;)&space;\\\end{aligned}\right.&space;" title="L\left ( Y, f\left ( X \right ) \right ) =\left\{\begin{aligned}1 , Y \neq f\left ( x \right ) \\0 , Y = f\left ( x \right ) \\\end{aligned}\right. " />
 
 ### algorithm:
+Above two steps outputs a best model,then you need an algorithm to solve the model(optimization problem) 
 
+
+## 3.Overfitting,generalization ability
+Using complex model to describe simple problem will cause overfitting and lose generalization ability,
+using simple model to solve complex problem will face underfitting. 
+
+we use methods like regularization,cross validation to **choose a simple but adequate model**
+
+Then we may face **lack of generalization ability**,do researches on generalization error bound to polish the model.
+
+## 4.generative approach and discriminative approach
+
+### generative approach
+- typical generative models:Naive Bayes Model，Hidden Markov Model(HMM)，DBN，Markov Random Field
+- If the model learns to recognize a sheep,it outputs the probability that cow == sheep is lower than 0.5
+
+### discriminative approach
+- typical discriminative models:SVM, logistic regression,Decision tree,k-nearest neighbor(KNN)
+- If the model learns to recognize a sheep,it outputs false for cow == sheep 
+
+
+## 5. classfication,tagging,regression
+
+### classfication
+
+### tagging
+
+### regression
