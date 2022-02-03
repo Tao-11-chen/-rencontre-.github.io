@@ -42,6 +42,7 @@ with model chosen,then we need to consider how to train the model,here we use lo
 ![image3](https://s3.bmp.ovh/imgs/2022/02/229925a3fb2f63af.jpg)
 
 **The results derived by minimizing cross entropy are consistent with those obtained by maximizing likelihood** 
+
 So，Cross Entropy is the same as maximum likelihood loss(log loss)
 
 - 0/1: Not so common,used by perceptron.
