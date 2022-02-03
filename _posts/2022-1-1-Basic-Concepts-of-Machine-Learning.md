@@ -29,10 +29,15 @@ with model chosen,then we need to consider how to train the model,here we use lo
 
 <img src="https://latex.codecogs.com/svg.image?J&space;=&space;\frac{1}{N}\sum_{i=0}^{N}\left|&space;y_{i}&space;-&space;y_{i}^{\hat{}}\right|" title="J = \frac{1}{N}\sum_{i=0}^{N}\left| y_{i} - y_{i}^{\hat{}}\right|" />
 
+- Huber：a combination of L1 and L2 loss.when δ~0,Huber will be MAE;when δ ~ ∞,Huber will be MSE
 
-- Huber
-- Quantile
-- Cross Entropy
+![image1](https://s3.bmp.ovh/imgs/2022/02/301bf229574fcd14.png)
+
+- Quantile: Pay more attention to interval prediction rather than point prediction
+
+![image2](https://s3.bmp.ovh/imgs/2022/02/2e4607463f04943b.png)
+
+- Cross Entropy: most common lossfunction in classfication tasks.
 - Hinge
 - 0/1
 ### algorithm:
