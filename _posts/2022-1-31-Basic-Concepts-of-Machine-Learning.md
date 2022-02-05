@@ -80,5 +80,5 @@ Then we may face **lack of generalization ability**,do researches on generalizat
 - outputs tagged sequence or state sequence
 
 ### regression
-- outputs predicted data(accroding to input data)
+- outputs predicted data(real-valued output)
 - data are offen successive
