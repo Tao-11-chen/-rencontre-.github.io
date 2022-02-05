@@ -76,6 +76,7 @@ Then we may face **lack of generalization ability**,do researches on generalizat
 ### classfication
 - outputs classes
 - data are offen Discrete
+- Example:Given a patient with a tumor, we have to predict whether the tumor is malignant or benign
 
 ### tagging
 - outputs tagged sequence or state sequence
@@ -83,3 +84,4 @@ Then we may face **lack of generalization ability**,do researches on generalizat
 ### regression
 - outputs predicted data(real-valued output)
 - data are offen successive
+- Example:Given a picture of a person, we have to predict their age on the basis of the given picture
