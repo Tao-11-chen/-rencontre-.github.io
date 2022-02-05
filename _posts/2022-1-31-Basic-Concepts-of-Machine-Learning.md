@@ -70,6 +70,7 @@ Then we may face **lack of generalization ability**,do researches on generalizat
 - typical discriminative models:SVM, logistic regression,Decision tree,k-nearest neighbor(KNN)
 - If the model learns to recognize a sheep,it outputs false for cow == sheep 
 
+![image](https://s3.bmp.ovh/imgs/2022/02/7d820adfdb22e775.jpg)
 
 ## 5. classfication,tagging,regression
 ### classfication
