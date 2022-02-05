@@ -72,7 +72,7 @@ Then we may face **lack of generalization ability**,do researches on generalizat
 
 ![image](https://s3.bmp.ovh/imgs/2022/02/7d820adfdb22e775.jpg)
 
-## 5. classfication,tagging,regression
+## 5. classfication,tagging and regression problem
 ### classfication
 - outputs classes
 - data are offen Discrete
