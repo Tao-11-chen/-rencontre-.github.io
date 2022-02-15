@@ -1,7 +1,7 @@
-# This is an report on liner regression and logistic regression
+# This is a note on liner regression and logistic regression
 
 ## Liner regression
-
+1.model：
 
 
 
