@@ -60,7 +60,19 @@ repeat until convergence:
 
 j=0,1 represents the feature index number.
 
-However,this is batch gradient descent(BGD),it computes all the grades and is slow,so  
+**However,this is batch gradient descent(BGD),it computes all the grades and is slow,so we have Stochastic Gradient Descent(SGD) and Mini-batch Gradient Descent(MGD)
+,they are faster in calculation and is well performed too.**
+
+### Normal equation
+Gradient descent gives one way of minimizing J. Let’s discuss a second way of doing so, this time performing the minimization explicitly and without resorting to an iterative algorithm. In the "Normal Equation" method, we will minimize J by explicitly taking its derivatives with respect to the θj ’s, and setting them to zero. This allows us to find the optimum theta without iteration. The normal equation formula is given below: 
+
+<img src="https://latex.codecogs.com/svg.image?\theta&space;=&space;\left&space;(X^{T}X&space;\right&space;)^{-1}X^{T}y" title="\theta = \left (X^{T}X \right )^{-1}X^{T}y" />
+
+With the normal equation, computing the inversion has complexity <img src="https://latex.codecogs.com/svg.image?O\left&space;(&space;&space;n^{3}\right&space;)" title="O\left ( n^{3}\right )" />. So if we have a very large number of features, the normal equation will be slow. In practice, when n exceeds 10,000 it might be a good time to go from a normal solution to an iterative process.
+
+**But**,the X*TX maybe **noninvertible**,you should deleting a feature 
+that is linearly dependent with another or deleting one or more features when there are too many features.
+
 ## Logistic regression
 
 
