@@ -56,7 +56,11 @@ The gradient descent algorithm is:
 
 repeat until convergence:
 
+<img src="https://latex.codecogs.com/svg.image?\theta_{j}&space;=&space;\theta_{j}&space;-&space;\alpha&space;\frac{\vartheta&space;}{\vartheta&space;\theta_{j}}&space;J\left&space;(&space;\theta&space;_{0},\theta_{1}&space;\right&space;)" title="\theta_{j} = \theta_{j} - \alpha \frac{\vartheta }{\vartheta \theta_{j}} J\left ( \theta _{0},\theta_{1} \right )" />
 
+j=0,1 represents the feature index number.
+
+However,this is batch gradient descent(BGD),it computes all the grades and is slow,so  
 ## Logistic regression
 
 
